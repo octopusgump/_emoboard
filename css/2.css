@@ -1,0 +1,257 @@
+@font-face{
+	font-family: ;
+	src: url("fonts/HelveticaNeue.ttf") format("ttf");
+	src: url("fonts/HelveticaNeue-Thin.otf") format("otf");
+	font-weight: 10;  /* a unit for the font-weight: */
+	font-style: normal;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*emoji control*/
+.emoji{
+	text-align: center;
+}
+
+.emoji img{
+	width: 50%;
+	height: auto;
+	margin: 6%;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*trigger control*/
+.emotion .keyboardicon img{
+	position: fixed;
+	left: 1367px;
+	bottom: 23px;
+	width: 44px;
+	cursor: pointer;
+} 
+
+.emotion .back img{
+	position: fixed;
+	left: 20px;
+	top: 20px;
+	width: 7%;
+} 
+
+
+
+.hidebar img{
+	width: 96px;
+	bottom: 82px;
+	position: fixed;
+}
+
+
+.emotion .hidebar #A img {
+	left: 10px;
+	opacity: 0;
+}
+.emotion .hidebar #B img {
+	left: 60px;
+	opacity: 0;
+}
+.emotion .hidebar #C img {
+	left: 110px;
+	opacity: 0;
+}
+.emotion .hidebar #D img {
+	left: 160px;
+	opacity: 0;
+}
+.emotion .hidebar #E img {
+	left: 210px;
+	opacity: 0;
+}
+.emotion .hidebar #F img {
+	left: 260px;
+	opacity: 0;
+}
+.emotion .hidebar #G img {
+	left: 310px;
+	opacity: 0;
+}
+.emotion .hidebar #H img {
+	left: 360px;
+	opacity: 0;
+}
+.emotion .hidebar #I img {
+	left: 410px;
+	opacity: 0;
+}
+.emotion .hidebar #J img {
+	left: 460px;
+	opacity: 0;
+}
+.emotion .hidebar #K img {
+	left: 510px;
+	opacity: 0;
+}
+.emotion .hidebar #L img {
+	left: 560px;
+	opacity: 0;
+}
+.emotion .hidebar #M img {
+	left: 610px;
+	opacity: 0;
+}
+.emotion .hidebar #N img {
+	left: 660px;
+	opacity: 0;
+}
+.emotion .hidebar #O img {
+	left: 710px;
+	opacity: 0;
+}
+.emotion .hidebar #P img {
+	left: 760px;
+	opacity: 0;
+}
+.emotion .hidebar #Q img {
+	left: 810px;
+	opacity: 0;
+}
+.emotion .hidebar #R img {
+	left: 860px;
+	opacity: 0;
+}
+.emotion .hidebar #S img {
+	left: 910px;
+	opacity: 0;
+}
+.emotion .hidebar #T img {
+	left: 960px;
+	opacity: 0;
+}
+.emotion .hidebar #U img {
+	left:1010px;
+	opacity: 0;
+}
+.emotion .hidebar #V img {
+	left:1060px;
+	opacity: 0;
+}
+.emotion .hidebar #W img {
+	left:1110px;
+	opacity: 0;
+}
+.emotion .hidebar #X img {
+	left:1160px;
+	opacity: 0;
+}
+.emotion .hidebar #Y img {
+	left:1210px;
+	opacity: 0;
+}
+.emotion .hidebar #Z img {
+	left:1260px;
+	opacity: 0;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*keyboard control*/
+.bar img {
+	bottom: -75px;
+	position: fixed;
+	width: 44px;
+}
+
+.emotion .bar #A img {
+	left: 10px;
+}
+.emotion .bar #B img {
+	left: 60px;
+}
+.emotion .bar #C img {
+	left: 110px;
+}
+.emotion .bar #D img {
+	left: 160px;
+}
+.emotion .bar #E img {
+	left: 210px;
+}
+.emotion .bar #F img {
+	left: 260px;
+}
+.emotion .bar #G img {
+	left: 310px;
+}
+.emotion .bar #H img {
+	left: 360px;
+}
+.emotion .bar #I img {
+	left: 410px;
+}
+.emotion .bar #J img {
+	left: 460px;
+}
+.emotion .bar #K img {
+	left: 510px;
+}
+.emotion .bar #L img {
+	left: 560px;
+}
+.emotion .bar #M img {
+	left: 610px;
+}
+.emotion .bar #N img {
+	left: 660px;
+}
+.emotion .bar #O img {
+	left: 710px;
+}
+.emotion .bar #P img {
+	left: 760px;
+}
+.emotion .bar #Q img {
+	left: 810px;
+}
+.emotion .bar #R img {
+	left: 860px;
+}
+.emotion .bar #S img {
+	left: 910px;
+}
+.emotion .bar #T img {
+	left: 960px;
+}
+.emotion .bar #U img {
+	left:1010px;
+}
+.emotion .bar #V img {
+	left:1060px;
+}
+.emotion .bar #W img {
+	left:1110px;
+}
+.emotion .bar #X img {
+	left:1160px;
+}
+.emotion .bar #Y img {
+	left:1210px;
+}
+.emotion .bar #Z img {
+	left:1260px;
+}
+
+.emotion .bar #cheatbox img{
+	left: 1366px;
+	height: 96px;
+	width: 45px;
+	cursor: pointer;
+}
+
+.emotion .plusminus img {
+	bottom: -75px;
+	left: 1310px;
+	width: 44px;
+	position: fixed;
+}

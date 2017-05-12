@@ -1,0 +1,331 @@
+@font-face{
+	font-family: ;
+	src: url("fonts/HelveticaNeue.ttf") format("ttf");
+	src: url("fonts/HelveticaNeue-Thin.otf") format("otf");
+	font-weight: 10;  /* a unit for the font-weight: */
+	font-style: normal;
+}
+
+body {
+	background-color: ced2d5;
+}
+
+
+/*.try {
+	text-align: center;
+	top: 3%;
+	position: absolute;
+}
+
+.try img{
+
+	width: 85%;
+}*/
+/*--------------------------------------------------------------------------------------------*/
+/*keyboard control*/
+.keyboard div img{
+	width: 96px;
+  	height: auto;
+  	padding: 5px;
+}
+
+.keyboard .Q img{
+	position: absolute;
+	left: 133px;
+	top: 116px;
+} 
+
+.keyboard .W img{
+	position: absolute;
+	left: 251px;
+	top: 116px;
+} 
+
+.keyboard .E img{
+	position: absolute;
+	left: 369px;
+	top: 116px;
+} 
+
+.keyboard .R img{
+	position: absolute;
+	left: 487px;
+	top: 116px;
+} 
+
+.keyboard .T img{
+	position: absolute;
+	left: 605px;
+	top: 116px;
+} 
+
+.keyboard .Y img{
+	position: absolute;
+	left: 718px;
+	top: 116px;
+} 
+
+.keyboard .U img{
+	position: absolute;
+	left: 841px;
+	top: 116px;
+} 
+
+.keyboard .I img{
+	position: absolute;
+	left: 959px;
+	top: 116px;
+} 
+
+.keyboard .O img{
+	position: absolute;
+	left: 1077px;
+	top: 116px;
+} 
+
+.keyboard .P img{
+	position: absolute;
+	left: 1195px;
+	top: 116px;
+} 
+
+.keyboard .A img{
+	position: absolute;
+	left: 192px;
+	top: 328px;
+} 
+
+.keyboard .S img{
+	position: absolute;
+	left: 310px;
+	top: 328px;
+} 
+
+.keyboard .D img{
+	position: absolute;
+	left: 428px;
+	top: 328px;
+} 
+
+.keyboard .F img{
+	position: absolute;
+	left: 546px;
+	top: 328px;
+} 
+
+.keyboard .G img{
+	position: absolute;
+	left: 664px;
+	top: 328px;
+} 
+
+.keyboard .H img{
+	position: absolute;
+	left: 782px;
+	top: 328px;
+} 
+
+.keyboard .J img{
+	position: absolute;
+	left: 900px;
+	top: 328px;
+} 
+
+.keyboard .K img{
+	position: absolute;
+	left: 1018px;
+	top: 328px;
+} 
+
+.keyboard .L img{
+	position: absolute;
+	left: 1136px;
+	top: 328px;
+} 
+
+.keyboard .Z img{
+	position: absolute;
+	left: 310px;
+	top: 539px;
+} 
+
+.keyboard .X img{
+	position: absolute;
+	left: 428px;
+	top: 539px;
+} 
+
+.keyboard .C img{
+	position: absolute;
+	left: 546px;
+	top: 539px;
+} 
+
+.keyboard .V img{
+	position: absolute;
+	left: 664px;
+	top: 539px;
+} 
+
+.keyboard .B img{
+	position: absolute;
+	left: 782px;
+	top: 539px;
+} 
+
+.keyboard .N img{
+	position: absolute;
+	left: 900px;
+	top: 539px;
+} 
+
+.keyboard .M img{
+	position: absolute;
+	left: 1018px;
+	top: 539px;
+} 
+
+.keyboard .plusminus img{
+	position: absolute;
+	left: 1147px;
+	top: 539px;
+	width: 153px;
+} 
+
+.keyboard .up img{
+	position: absolute;
+	left: 123px;
+	top: 539px;
+	width: 153px;
+	cursor: pointer;
+} 
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*coverbackground control*/
+
+.coverbackground{
+	width: 1420px;
+	height: 844px;
+	top: -850px;
+	margin: -6px, -6px,-6px,-6px;
+	background-color: white;
+	z-index: 0;
+	position:absolute;
+
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*cover name control*/
+/*.covername{
+	
+	
+}*/
+.covername{
+	font-size: 100px;
+	font-family: HelveticaNeue-Thin;
+	top: -775px; /*75 330-75=255px*/
+	left: 500px;
+	position:absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*bubble control*/
+
+/*leftbubble control*/
+.coverpage .leftbubble{
+	left: 123px;
+	top: -620px;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+.coverpage .leftbubble img{
+	height: 158px;
+	/*visibility: hidden;*/
+	position: absolute;
+}
+/*leftbubble text control*/
+.coverpage .leftbubbletext{
+	left: 162px;
+	top: -619px;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+.coverpage .leftbubbletext p{
+	font-size: 28px;
+	font-family: HelveticaNeue-Thin;
+	width: 470px;
+}
+
+
+
+/*rightbubble control*/
+.coverpage .rightbubble{
+    left: 951px;
+    top: -408px;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+.coverpage .rightbubble img{
+	height: 115px;
+	position: absolute;
+}
+/*rightbubble text control*/
+.coverpage .rightbubbletext{
+	left: 973px;
+    top: -413px;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+.coverpage .rightbubbletext p{
+	font-size: 28px;
+	font-family: HelveticaNeue-Thin;
+	color: white;
+	width: 350px;
+}
+
+
+
+
+/*downbubble control*/
+.coverpage .downbubble{
+	left: 123px;
+	top: -280px;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+.coverpage .downbubble img{
+	width: 153px;
+	height: auto;
+	position: absolute;
+}
+/*down control*/
+.coverpage .down{
+	left: 170px;
+	top: -222px;
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+	cursor: pointer;
+}
+.coverpage .down img{
+	width: 76px;
+	height: auto;
+	position: absolute;
+}

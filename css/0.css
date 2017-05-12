@@ -1,0 +1,620 @@
+@font-face{
+	font-family: ;
+	src: url("fonts/HelveticaNeue.ttf") format("ttf");
+	src: url("fonts/HelveticaNeue-Thin.otf") format("otf");
+	font-weight: 10;  /* a unit for the font-weight: */
+	font-style: normal;
+}
+
+body {
+	background-color: ced2d5;
+}
+
+@media (max-width: 1136px) {
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*keyboard control*/
+	.keyboard div img{
+		width: 79px;
+		height: auto;
+		padding: 5px;
+	}
+
+	.keyboard .Q img{
+		position: absolute;
+		left: 100px;
+		top: 144px;
+	} 
+
+	.keyboard .W img{
+		position: absolute;
+		left: 194px;
+		top: 144px;
+	} 
+
+	.keyboard .E img{
+		position: absolute;
+		left: 288px;
+		top: 144px;
+	} 
+
+	.keyboard .R img{
+		position: absolute;
+		left: 382px;
+		top: 144px;
+	} 
+
+	.keyboard .T img{
+		position: absolute;
+		left: 476px;
+		top: 144px;
+	} 
+
+	.keyboard .Y img{
+		position: absolute;
+		left: 570px;
+		top: 144px;
+	} 
+
+	.keyboard .U img{
+		position: absolute;
+		left: 664px;
+		top: 144px;
+	} 
+
+	.keyboard .I img{
+		position: absolute;
+		left: 758px;
+		top: 144px;
+	} 
+
+	.keyboard .O img{
+		position: absolute;
+		left: 852px;
+		top: 144px;
+	} 
+
+	.keyboard .P img{
+		position: absolute;
+		left: 946px;
+		top: 144px;
+	} 
+
+	.keyboard .A img{
+		position: absolute;
+		left: 142px;
+		top: 344px;
+	} 
+
+	.keyboard .S img{
+		position: absolute;
+		left: 236px;
+		top: 344px;
+	} 
+
+	.keyboard .D img{
+		position: absolute;
+		left: 330px;
+		top: 344px;
+	} 
+
+	.keyboard .F img{
+		position: absolute;
+		left: 424px;
+		top: 344px;
+	} 
+
+	.keyboard .G img{
+		position: absolute;
+		left: 518px;
+		top: 344px;
+	} 
+
+	.keyboard .H img{
+		position: absolute;
+		left: 612px;
+		top: 344px;
+	} 
+
+	.keyboard .J img{
+		position: absolute;
+		left: 706px;
+		top: 344px;
+	} 
+
+	.keyboard .K img{
+		position: absolute;
+		left: 800px;
+		top: 344px;
+	} 
+
+	.keyboard .L img{
+		position: absolute;
+		left: 894px;
+		top: 344px;
+	} 
+
+	.keyboard .Z img{
+		position: absolute;
+		left: 244px;
+		top: 544px;
+	} 
+
+	.keyboard .X img{
+		position: absolute;
+		left: 338px;
+		top: 544px;
+	} 
+
+	.keyboard .C img{
+		position: absolute;
+		left: 432px;
+		top: 544px;
+	} 
+
+	.keyboard .V img{
+		position: absolute;
+		left: 526px;
+		top: 544px;
+	} 
+
+	.keyboard .B img{
+		position: absolute;
+		left: 620px;
+		top: 544px;
+	} 
+
+	.keyboard .N img{
+		position: absolute;
+		left: 714px;
+		top: 544px;
+	} 
+
+	.keyboard .M img{
+		position: absolute;
+		left: 808px;
+		top: 544px;
+	} 
+
+	.keyboard .plusminus img{
+		position: absolute;
+		left: 911px;
+		top: 544px;
+		width: 123px;
+	} 
+
+	.keyboard .up img{
+		position: absolute;
+		left: 97px;
+		top: 544px;
+		width: 123px;
+		cursor: pointer;
+	} 
+
+	/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*coverbackground control*/
+
+	.coverbackground{
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		z-index: 0;
+		position:absolute;
+
+	}
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*cover name control*/
+	.covername{
+		top: 290px;
+		left: 426px;
+		position:absolute;
+		cursor: pointer;
+		z-index: 1;
+		font-size: 66px;
+		font-family: HelveticaNeue-Thin;
+		position:absolute;
+	}
+
+
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*bubble control*/
+
+	/*leftbubble control*/
+	.coverpage .leftbubble{
+		left: 123px;
+		top: 158px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .leftbubble img{
+
+		width: 470px;
+		/*visibility: hidden;*/
+		position: absolute;
+	}
+	/*leftbubble text control*/
+	.coverpage .leftbubbletext{
+		left: 165px;
+		top: 165px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .leftbubbletext p{
+		font-size: 24px;
+		font-family: HelveticaNeue-Thin;
+		width: 400px;
+	}
+
+
+
+	/*rightbubble control*/
+	.coverpage .rightbubble{
+		left: 682px;
+		top: 362px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .rightbubble img{
+		height: 110px;
+		width: 296px;
+		position: absolute;
+	}
+	/*rightbubble text control*/
+	.coverpage .rightbubbletext{
+		left: 706px;
+		top: 362px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .rightbubbletext p{
+		font-size: 24px;
+		font-family: HelveticaNeue-Thin;
+		color: white;
+		width: 255px;
+	}
+
+	/*downbubble control*/
+	.coverpage .downbubble{
+		left: 123px;
+		top: 570px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .downbubble img{
+		width: 153px;
+		height: auto;
+		position: absolute;
+	}
+	/*down control*/
+	.coverpage .down{
+		left: 170px;
+		top: 633px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+		cursor: pointer;
+	}
+	.coverpage .down img{
+		width: 76px;
+		height: auto;
+		position: absolute;
+	}
+
+
+}
+
+@media (min-width: 1137px){
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*keyboard control*/
+	.keyboard div img{
+		width: 96px;
+		height: auto;
+		padding: 5px;
+	}
+
+	.keyboard .Q img{
+		position: absolute;
+		left: 133px;
+		top: 116px;
+	} 
+
+	.keyboard .W img{
+		position: absolute;
+		left: 251px;
+		top: 116px;
+	} 
+
+	.keyboard .E img{
+		position: absolute;
+		left: 369px;
+		top: 116px;
+	} 
+
+	.keyboard .R img{
+		position: absolute;
+		left: 487px;
+		top: 116px;
+	} 
+
+	.keyboard .T img{
+		position: absolute;
+		left: 605px;
+		top: 116px;
+	} 
+
+	.keyboard .Y img{
+		position: absolute;
+		left: 718px;
+		top: 116px;
+	} 
+
+	.keyboard .U img{
+		position: absolute;
+		left: 841px;
+		top: 116px;
+	} 
+
+	.keyboard .I img{
+		position: absolute;
+		left: 959px;
+		top: 116px;
+	} 
+
+	.keyboard .O img{
+		position: absolute;
+		left: 1077px;
+		top: 116px;
+	} 
+
+	.keyboard .P img{
+		position: absolute;
+		left: 1195px;
+		top: 116px;
+	} 
+
+	.keyboard .A img{
+		position: absolute;
+		left: 192px;
+		top: 328px;
+	} 
+
+	.keyboard .S img{
+		position: absolute;
+		left: 310px;
+		top: 328px;
+	} 
+
+	.keyboard .D img{
+		position: absolute;
+		left: 428px;
+		top: 328px;
+	} 
+
+	.keyboard .F img{
+		position: absolute;
+		left: 546px;
+		top: 328px;
+	} 
+
+	.keyboard .G img{
+		position: absolute;
+		left: 664px;
+		top: 328px;
+	} 
+
+	.keyboard .H img{
+		position: absolute;
+		left: 782px;
+		top: 328px;
+	} 
+
+	.keyboard .J img{
+		position: absolute;
+		left: 900px;
+		top: 328px;
+	} 
+
+	.keyboard .K img{
+		position: absolute;
+		left: 1018px;
+		top: 328px;
+	} 
+
+	.keyboard .L img{
+		position: absolute;
+		left: 1136px;
+		top: 328px;
+	} 
+
+	.keyboard .Z img{
+		position: absolute;
+		left: 310px;
+		top: 539px;
+	} 
+
+	.keyboard .X img{
+		position: absolute;
+		left: 428px;
+		top: 539px;
+	} 
+
+	.keyboard .C img{
+		position: absolute;
+		left: 546px;
+		top: 539px;
+	} 
+
+	.keyboard .V img{
+		position: absolute;
+		left: 664px;
+		top: 539px;
+	} 
+
+	.keyboard .B img{
+		position: absolute;
+		left: 782px;
+		top: 539px;
+	} 
+
+	.keyboard .N img{
+		position: absolute;
+		left: 900px;
+		top: 539px;
+	} 
+
+	.keyboard .M img{
+		position: absolute;
+		left: 1018px;
+		top: 539px;
+	} 
+
+	.keyboard .plusminus img{
+		position: absolute;
+		left: 1147px;
+		top: 539px;
+		width: 153px;
+	} 
+
+	.keyboard .up img{
+		position: absolute;
+		left: 123px;
+		top: 539px;
+		width: 153px;
+		cursor: pointer;
+	} 
+
+	/*--------------------------------------------------------------------------------------------*/
+
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*coverbackground control*/
+
+	.coverbackground{
+		width: 1420px;
+		height: 844px;
+		margin: -6px, -6px,-6px,-6px;
+		background-color: white;
+		z-index: 0;
+		position:absolute;
+
+	}
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*cover name control*/
+	.covername{
+		top: 330px; /*75 330-75=255px*/
+		left: 500px;
+		position:absolute;
+		cursor: pointer;
+		z-index: 1;
+		font-size: 100px;
+		font-family: HelveticaNeue-Thin;
+		position:absolute;
+	}
+
+
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*bubble control*/
+
+	/*leftbubble control*/
+	.coverpage .leftbubble{
+		left: 123px;
+		top: 230px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .leftbubble img{
+		height: 158px;
+		/*visibility: hidden;*/
+		position: absolute;
+	}
+	/*leftbubble text control*/
+	.coverpage .leftbubbletext{
+		left: 162px;
+		top: 231px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .leftbubbletext p{
+		font-size: 28px;
+		font-family: HelveticaNeue-Thin;
+		width: 470px;
+	}
+
+
+
+	/*rightbubble control*/
+	.coverpage .rightbubble{
+		left: 951px;
+		top: 442px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .rightbubble img{
+		height: 115px;
+		position: absolute;
+	}
+	/*rightbubble text control*/
+	.coverpage .rightbubbletext{
+		left: 973px;
+		top: 437px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .rightbubbletext p{
+		font-size: 28px;
+		font-family: HelveticaNeue-Thin;
+		color: white;
+		width: 350px;
+	}
+
+	/*downbubble control*/
+	.coverpage .downbubble{
+		left: 123px;
+		top: 570px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+	}
+	.coverpage .downbubble img{
+		width: 153px;
+		height: auto;
+		position: absolute;
+	}
+	/*down control*/
+	.coverpage .down{
+		left: 170px;
+		top: 628px;
+		opacity: 0;
+		z-index: 1;
+		position: absolute;
+		cursor: pointer;
+	}
+	.coverpage .down img{
+		width: 76px;
+		height: auto;
+		position: absolute;
+	}
+
+
+
+}

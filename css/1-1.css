@@ -1,0 +1,241 @@
+@font-face{
+	font-family: ;
+	src: url("fonts/HelveticaNeue.ttf") format("ttf");
+	src: url("fonts/HelveticaNeue-Thin.otf") format("otf");
+	font-weight: 10;  /* a unit for the font-weight: */
+	font-style: normal;
+}
+body {
+	background-color: ced2d5;
+}
+
+/*.try {
+	text-align: center;
+	position: absolute;
+	left: -5px;
+	top: -5px;
+}
+
+.try img{
+	width: 1445px;
+	}*/
+
+	
+	/*--------------------------------------------------------------------------------------------*/
+	/*background control*/
+	.background{
+		text-align: center;
+	}
+	.background img{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 1440px; 
+		height: 100%;
+	}
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*keyboard control*/
+	.keyboard div img{
+		width: 66px;
+		height: auto;
+		padding: 5px;
+	}
+
+	.keyboard .Q img{
+		position: absolute;
+		left: 411px;
+		top: 179px;
+	} 
+
+	.keyboard .W img{
+		position: absolute;
+		left: 767px;
+		top: 297px;
+	} 
+
+	.keyboard .E img{
+		position: absolute;
+		left: 233px;
+		top: 179px;
+	} 
+
+	.keyboard .R img{
+		position: absolute;
+		left: 411px;
+		top: 297px;
+	} 
+
+	.keyboard .T img{
+		position: absolute;
+		left: 1212px;
+		top: 533px;
+	} 
+
+	.keyboard .Y img{
+		position: absolute;
+		left: 589px;
+		top: 297px;
+	} 
+
+	.keyboard .U img{
+		position: absolute;
+		left: 945px;
+		top: 297px;
+	} 
+
+	.keyboard .I img{
+		position: absolute;
+		left: 1123px;
+		top: 297px;
+	} 
+
+	.keyboard .O img{
+		position: absolute;
+		left: 322px;
+		top: 297px;
+	} 
+
+	.keyboard .P img{
+		position: absolute;
+		left: 856px;
+		top: 297px;
+	} 
+
+	.keyboard .A img{
+		position: absolute;
+		left: 1123px;
+		top: 533px;
+	} 
+
+	.keyboard .S img{
+		position: absolute;
+		left: 233px;
+		top: 297px;
+	} 
+
+	.keyboard .D img{
+		position: absolute;
+		left: 945px;
+		top: 415px;
+	} 
+
+	.keyboard .F img{
+		position: absolute;
+		left: 1034px;
+		top: 415px;
+	} 
+
+	.keyboard .G img{
+		position: absolute;
+		left: 856px;
+		top: 415px;
+	} 
+
+	.keyboard .H img{
+		position: absolute;
+		left: 1212px;
+		top: 297px;
+	} 
+
+	.keyboard .J img{
+		position: absolute;
+		left: 678px;
+		top: 297px;
+	} 
+
+	.keyboard .K img{
+		position: absolute;
+		left: 500px;
+		top: 297px;
+	} 
+
+	.keyboard .L img{
+		position: absolute;
+		left: 144px;
+		top: 297px;
+	} 
+
+	.keyboard .Z img{
+		position: absolute;
+		left: 144px;
+		top: 179px;
+	} 
+
+	.keyboard .X img{
+		position: absolute;
+		left: 1212px;
+		top: 651px;
+	} 
+
+	.keyboard .C img{
+		position: absolute;
+		left: 1123px;
+		top: 415px;
+	} 
+
+	.keyboard .V img{
+		position: absolute;
+		left: 144px;
+		top: 61px;
+	} 
+
+	.keyboard .B img{
+		position: absolute;
+		left: 322px;
+		top: 179px;
+	} 
+
+	.keyboard .N img{
+		position: absolute;
+		left: 1034px;
+		top: 297px;
+	} 
+
+	.keyboard .M img{
+		position: absolute;
+		left: 1212px;
+		top: 415px;
+	} 
+
+/*	.keyboard .up img{
+		position: absolute;
+		left: 20px;
+		top: 653px;
+		width: 100px;
+	} */
+
+	.keyboard .keyboardicon img{
+		position: absolute;
+		left: 1305px;
+		top: 653px;
+		width: 100px;
+	} 
+
+	.keyboard .plus img{
+		position: absolute;
+		left: 20px;
+		top: 305px;
+		width: 90px;
+	} 
+
+	.keyboard .minus img{
+		position: absolute;
+		left: 1307px;
+		top: 336px;
+		width: 96px;
+	} 
+
+
+	/*--------------------------------------------------------------------------------------------*/
+	/*emoji control*/
+	.emoji{
+		text-align: center;
+	}
+
+	.emoji img{
+		width: 80%;
+		text-align: center;
+	}
+
+
